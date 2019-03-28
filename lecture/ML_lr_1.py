@@ -13,12 +13,3 @@ y_model = model.predict(Xtest)
 # from sklearn.metrics import accuracy_score
 # accuracy_score(ytest, y_model)
 #for regression
-mse = mean_squared_error(ytest, y_model)
-print("Slope: ", w)
-print("MSE: ", mse)
-
-#compare labels
-plt.scatter(ytest, y_model)
-plt.xlabel("Truth")
-plt.ylabel("Predicted")
-plt.title("Boston Housing True vs Predicted prices")
